@@ -19,6 +19,7 @@
 		7520F17219BAD9A6005FB150 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520F15A19BAD9A6005FB150 /* UIKit.framework */; };
 		7520F17A19BAD9A6005FB150 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7520F17819BAD9A6005FB150 /* InfoPlist.strings */; };
 		7520F17C19BAD9A6005FB150 /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F17B19BAD9A6005FB150 /* gitTestTests.m */; };
+		7520F18719BAE1B4005FB150 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F18619BAE1B4005FB150 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		7520F17719BAD9A6005FB150 /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		7520F17919BAD9A6005FB150 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7520F17B19BAD9A6005FB150 /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		7520F18519BAE1B4005FB150 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7520F18619BAE1B4005FB150 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				7520F16519BAD9A6005FB150 /* AppDelegate.h */,
 				7520F16619BAD9A6005FB150 /* AppDelegate.m */,
+				7520F18519BAE1B4005FB150 /* TestViewController.h */,
+				7520F18619BAE1B4005FB150 /* TestViewController.m */,
 				7520F16819BAD9A6005FB150 /* Images.xcassets */,
 				7520F15D19BAD9A6005FB150 /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7520F18719BAE1B4005FB150 /* TestViewController.m in Sources */,
 				7520F16719BAD9A6005FB150 /* AppDelegate.m in Sources */,
 				7520F16319BAD9A6005FB150 /* main.m in Sources */,
 			);
