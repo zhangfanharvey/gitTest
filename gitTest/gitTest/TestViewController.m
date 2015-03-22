@@ -27,9 +27,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UIButton *button = [[UIButton alloc] init];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     [self.view addSubview:button];
     //sdfsafsafsa
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
