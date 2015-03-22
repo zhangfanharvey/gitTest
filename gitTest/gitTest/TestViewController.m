@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIButton *button = [[UIButton alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
