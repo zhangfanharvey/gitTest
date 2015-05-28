@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750C6C651B173DB600051763 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C6C641B173DB600051763 /* Model.m */; };
 		7520F15719BAD9A6005FB150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520F15619BAD9A6005FB150 /* Foundation.framework */; };
 		7520F15919BAD9A6005FB150 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520F15819BAD9A6005FB150 /* CoreGraphics.framework */; };
 		7520F15B19BAD9A6005FB150 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7520F15A19BAD9A6005FB150 /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		750C6C631B173DB600051763 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		750C6C641B173DB600051763 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		7520F15319BAD9A6005FB150 /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7520F15619BAD9A6005FB150 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7520F15819BAD9A6005FB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 				7520F16619BAD9A6005FB150 /* AppDelegate.m */,
 				7520F18519BAE1B4005FB150 /* TestViewController.h */,
 				7520F18619BAE1B4005FB150 /* TestViewController.m */,
+				750C6C631B173DB600051763 /* Model.h */,
+				750C6C641B173DB600051763 /* Model.m */,
 				7520F16819BAD9A6005FB150 /* Images.xcassets */,
 				7520F15D19BAD9A6005FB150 /* Supporting Files */,
 			);
@@ -247,6 +252,7 @@
 				7520F18719BAE1B4005FB150 /* TestViewController.m in Sources */,
 				7520F16719BAD9A6005FB150 /* AppDelegate.m in Sources */,
 				7520F16319BAD9A6005FB150 /* main.m in Sources */,
+				750C6C651B173DB600051763 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +449,7 @@
 				7520F18119BAD9A6005FB150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7520F18219BAD9A6005FB150 /* Build configuration list for PBXNativeTarget "gitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				7520F18419BAD9A6005FB150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
