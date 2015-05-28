@@ -34,6 +34,8 @@
     //sdfsadf
     //sdfsd
     //sdfsd
+    UIButton *buttonNext = [[UIButton alloc] initWithFrame:CGRectZero];
+    [self.view addSubview:buttonNext];
     
     
 }
